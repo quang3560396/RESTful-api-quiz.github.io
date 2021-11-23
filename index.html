@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu hành vũ trụ KAI</title>
+  <style type="text/css">
+    .hide{
+      display: none;
+    }
+    li{
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="question" id="question">
+    <h2 id="title"></h2>
+    <ul>
+      <li><input type="radio" name="cautraloi" class="cautraloi" id="a">
+        <label for="a" id="cautraloi_a"></label>
+      </li>
+      <li><input type="radio" name="cautraloi" class="cautraloi" id="b">
+        <label for="b" id="cautraloi_b"></label>
+      </li>
+      <li><input type="radio" name="cautraloi" class="cautraloi" id="c">
+        <label for="c" id="cautraloi_c"></label>
+      </li>
+      <li id="mask"><input type="radio" name="cautraloi" class="cautraloi" id="d">
+        <label for="d" id="cautraloi_d"></label>
+      </li>
+      <input id="caudung" type="hidden">
+      <input id="tongsocauhoi" type="hidden">
+    </ul>
+    <button id="submit">Câu kế tiếp</button>
+
+  </div>
+</body>
+  <script type="text/javascript" src="script.js"></script>
+</html>
